@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/fullDateAttnName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toLeftOf="@+id/fullDateTogglePresent"
+        android:gravity="clip_horizontal"
+        android:scrollHorizontally="true"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#020202" />
+
+    <ToggleButton
+        android:id="@+id/fullDateTogglePresent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="22dp"
+        android:minWidth="75dip"
+        android:text="ToggleButton"
+        android:textColor="#2C2416"
+        android:textOff="Absent"
+        android:textOn="Present" />
+
+</RelativeLayout>

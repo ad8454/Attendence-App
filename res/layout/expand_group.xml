@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp" >
+
+    <TextView
+        android:id="@+id/tViewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_toLeftOf="@+id/chkBox"
+        android:layout_toRightOf="@+id/tViewRno"
+        android:ellipsize="marquee"
+        android:gravity="clip_horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="TextView"
+        android:textColor="#020202"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+    <CheckBox
+        android:id="@+id/chkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/tViewRno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+</RelativeLayout>
